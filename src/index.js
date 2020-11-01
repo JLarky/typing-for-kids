@@ -49,9 +49,14 @@ const getWords = () =>
     ).slice(0, 8),
   ])
 
+const getNumbers = () => {
+  return shuffle(["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]);
+}
+
 class App extends React.Component {
   getInitialState() {
-    const words = getWords()
+    const dictionary = window.location.search === "?dictionary=numbers" ? "numbers" : "";
+    const words = dictionary === "numbers" ? getNumbers() : getWords();
     return {
       todo: words.slice(1),
       currentWord: words[0],
