@@ -1,5 +1,5 @@
 # Typing for kids
 
-A little app I made for my kids for Christmas :)
+See original version at https://github.com/kentcdodds/typing-for-kids
 
-See live: [typing-for-kids.netlify.com](https://typing-for-kids.netlify.com/)
+See [games.jlarky.now.sh](https://games.jlarky.now.sh/)
